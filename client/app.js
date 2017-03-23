@@ -192,9 +192,6 @@ var newTrip = function(user_id, tripName) {
   };
 });
 
-
-
-
 // app.factory('Activities', function($http) {
 //   // Function to post a new activity to the database
   // var postNewData = function(description, category, storage) {
