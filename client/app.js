@@ -129,6 +129,7 @@ var newTrip = function(user_id, tripName) {
 
   };
 
+
   var newActivity = function(user_id, trip_id, description, category) {
     console.log('newActivity is getting invoked!');
     var req = {
