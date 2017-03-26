@@ -139,7 +139,11 @@ h1 {
 .userButton {
   margin-top: 22%;
   margin-left: 38%;
+<<<<<<< HEAD
   background: url(images/userButton.png) no-repeat top center;
+=======
+  background: url(userButton.png) no-repeat top center;
+>>>>>>> ae078c355c5815149011d3127ff9708196f43df4
   width: 75px;
   height: 75px;
   background-size: cover;
@@ -226,6 +230,7 @@ div.footer {
   font-family: 'Aclonica', sans-serif;
   color: white;
 }
+<<<<<<< HEAD
 .list-view-form {
   display: block;
 }
@@ -249,3 +254,6 @@ div.footer {
   color: white;
   margin-bottom: 30px;
 }
+=======
+
+>>>>>>> ae078c355c5815149011d3127ff9708196f43df4

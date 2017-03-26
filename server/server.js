@@ -8,8 +8,13 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+<<<<<<< HEAD
 // mongoose.connect('mongodb://heroku_0fn1fg98:vi2sk4eagfo3dj3pbg1407vr0l@ds133450.mlab.com:33450/heroku_0fn1fg98/hydra');
 mongoose.connect('mongodb://localhost/hydra');
+=======
+mongoose.connect('mongodb://heroku_0fn1fg98:vi2sk4eagfo3dj3pbg1407vr0l@ds133450.mlab.com:33450/heroku_0fn1fg98/hydra');
+//mongoose.connect('mongodb://localhost/hydra');
+>>>>>>> ae078c355c5815149011d3127ff9708196f43df4
 var db = mongoose.connection;
 
 app.use(express.static(path.join(__dirname, '../client/')));
@@ -135,3 +140,4 @@ var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log('Listening on port ' + port);
 });
+
